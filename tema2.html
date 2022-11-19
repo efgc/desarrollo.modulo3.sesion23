@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 2</title>
+    <script src="/script/tema2.js"></script>
+</head>
+<body>
+    <h1>Agenda de contactos</h1>
+    <form action="#">
+        <p>
+            <label for="nombre">Ingrese Nombre</label>
+            <input type="text" id="nombre">
+        </p>
+        <p>
+            <label for="telefono">Ingrese Telefono</label>
+            <input type="text" id="telefono">
+        </p>
+        <p>
+            <label for="correo">Ingrese Correo</label>
+            <input type="text" id="correo">
+        </p>
+
+        <button onclick="agregarAgenda()">Agregar</button>
+    </form>
+    <div>
+        <textarea name="" id="listado" cols="30" rows="10"></textarea>
+    </div>
+    <table id="miTabla">
+        <thead>
+            <th>Nombre</th>
+            <th>Telefono</th>
+            <th>Correo</th>
+        </thead>
+    </table>
+</body>
+</html>
